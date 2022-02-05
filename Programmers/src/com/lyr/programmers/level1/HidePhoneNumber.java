@@ -1,9 +1,8 @@
 package com.lyr.programmers.level1;
 
-import java.util.Arrays;
 /*
  * 2022년 2월 3일 (목요일)
- * 핸드폰 번호 가리기
+ * 1. 핸드폰 번호 가리기
  */
 public class HidePhoneNumber {
 	public String solution(String phone_number) {
