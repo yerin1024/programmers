@@ -6,7 +6,7 @@ import java.util.Scanner;
  * 2022년 2월 5일 (토요일)
  * 2. 직사각형 별찍기
  */
-public class CreateRectangleStar {
+public class LoggingRectangleStar {
 	public void solution() {
 		
 		Scanner sc = new Scanner(System.in);

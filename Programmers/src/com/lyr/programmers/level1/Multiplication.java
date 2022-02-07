@@ -4,7 +4,7 @@ package com.lyr.programmers.level1;
  * 2022년 2월 5일 (토요일) 
  * 3. X만큼 간격이 있는 n개의 숫자
  */
-public class PrintMultiplication {
+public class Multiplication {
 	public long[] solution(int x, int n) {
 
         long[] answer = new long[n];

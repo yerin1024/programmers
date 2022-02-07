@@ -4,7 +4,7 @@ package com.lyr.programmers.level1;
  * 2022년 2월 5일 (토요일)
  * 4. 행렬의 덧셈
  */
-public class PrintMatrixAddition {
+public class MatrixAddition {
 	public int[][] solution(int[][] arr1, int[][] arr2) {
 
         int[][] answer = new int[arr1.length][arr1[0].length];

@@ -4,7 +4,7 @@ package com.lyr.programmers.level1;
  * 2022년 2월 3일 (목요일)
  * 1. 핸드폰 번호 가리기
  */
-public class HidePhoneNumber {
+public class HidingPhoneNumber {
 	public String solution(String phone_number) {
 		
 		String[] arr = new String[phone_number.length()];
