@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- * 2022년 2월 11일 (금요일)
+ * 2022년 2월 13일 (일요일)
  * 26. 나누어 떨어지는 숫자 배열
  */
 public class Multiple {

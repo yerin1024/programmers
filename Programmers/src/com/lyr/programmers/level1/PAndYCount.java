@@ -1,7 +1,7 @@
 package com.lyr.programmers.level1;
 
 /*
- * 2022년 2월 11일 (금요일)
+ * 2022년 2월 13일 (일요일)
  * 23. 문자열 내 p와 y의 개수
  */
 public class PAndYCount {

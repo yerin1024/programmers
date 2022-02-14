@@ -1,7 +1,7 @@
 package com.lyr.programmers.level1;
 
 /*
- * 2022년 2월 11일 (금요일)
+ * 2022년 2월 13일 (일요일)
  * 25. 두 정수 사이의 합
  */
 public class SumBetweenTwoIntegers { //integer 정수: 정수는 0과 자연수와 비슷하지만 음수까지 포함

@@ -1,7 +1,7 @@
 package com.lyr.programmers.level1;
 
 /*
- * 2022년 2월 14일 (일요일)
+ * 2022년 2월 13일 (일요일)
  * 14. 이상한 문자 만들기
  */
 public class StrangeString {

@@ -1,7 +1,7 @@
 package com.lyr.programmers.level1;
 
 /*
- * 2022년 2월 14일 (일요일)
+ * 2022년 2월 13일 (일요일)
  * 15. 자릿수 더하기
  */
 public class AddingDigit { //Digit 자릿수

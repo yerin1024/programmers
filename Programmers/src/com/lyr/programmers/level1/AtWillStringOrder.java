@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /*
- * 2022년 2월 11일 (금요일)
+ * 2022년 2월 13일 (일요일)
  * 24. 문자열 내 마음대로 정렬하기
  */
 public class AtWillStringOrder { //At Will 마음대로

@@ -1,7 +1,7 @@
 package com.lyr.programmers.level1;
 
 /*
- * 2022년 2월 11일 (금요일)
+ * 2022년 2월 13일 (일요일)
  * 27. 가운데 글자 가져오기
  */
 public class GettingMiddleLetter {
