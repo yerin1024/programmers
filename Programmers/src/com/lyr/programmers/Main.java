@@ -2,6 +2,7 @@ package com.lyr.programmers;
 
 import com.lyr.programmers.level1.LoggingRectangleStar;
 import com.lyr.programmers.level1.Lotto;
+import com.lyr.programmers.level1.MakingPrimeNumber;
 import com.lyr.programmers.level1.AddingDigit;
 import com.lyr.programmers.level1.AllCasesOfSum;
 import com.lyr.programmers.level1.ArrayAverage;
@@ -11,24 +12,30 @@ import com.lyr.programmers.level1.CaesarCipher;
 import com.lyr.programmers.level1.CalculatingInsufficientCash;
 import com.lyr.programmers.level1.ClawCraneGame;
 import com.lyr.programmers.level1.CollatzConjecture;
+import com.lyr.programmers.level1.DartGame;
 import com.lyr.programmers.level1.DealingWithString;
 import com.lyr.programmers.level1.DescendingOrder;
+import com.lyr.programmers.level1.Divisor;
 import com.lyr.programmers.level1.EvenAndOdd;
 import com.lyr.programmers.level1.FailureRate;
 import com.lyr.programmers.level1.FindingKimInSeoul;
 import com.lyr.programmers.level1.FindingPrimeNumber;
+import com.lyr.programmers.level1.GettingDeclarationResult;
 import com.lyr.programmers.level1.GettingMiddleLetter;
 import com.lyr.programmers.level1.GettingWeekend;
 import com.lyr.programmers.level1.GreatestCommonDivisorAndLeastCommonMultiple;
 import com.lyr.programmers.level1.HarshadNumber;
 import com.lyr.programmers.level1.HidingPhoneNumber;
+import com.lyr.programmers.level1.Keypad;
 import com.lyr.programmers.level1.MatrixAddition;
 import com.lyr.programmers.level1.MinimumRectangle;
 import com.lyr.programmers.level1.MockTest;
 import com.lyr.programmers.level1.Multiple;
 import com.lyr.programmers.level1.Multiplication;
 import com.lyr.programmers.level1.NaturalNumberToReverseArray;
+import com.lyr.programmers.level1.NumberStringAndEnglishWord;
 import com.lyr.programmers.level1.PAndYCount;
+import com.lyr.programmers.level1.PhoneKemon;
 import com.lyr.programmers.level1.PlayerWhoCouldNotComplete;
 import com.lyr.programmers.level1.Reaminder;
 import com.lyr.programmers.level1.RecommendingNewId;
@@ -36,6 +43,7 @@ import com.lyr.programmers.level1.RemovingDuplication;
 import com.lyr.programmers.level1.RemovingSmallestNumber;
 import com.lyr.programmers.level1.ReverseTernary;
 import com.lyr.programmers.level1.ScalarProduct;
+import com.lyr.programmers.level1.SecretMap;
 import com.lyr.programmers.level1.SquareRootDiscrimination;
 import com.lyr.programmers.level1.StrangeString;
 import com.lyr.programmers.level1.StringDescendingOrder;
@@ -238,14 +246,65 @@ public class Main {
 //		s.solution(lottos1, winNums1);
 //		s.solution(lottos2, winNums2);
 		
-		FailureRate s = new FailureRate();
-		int stageCnt1 = 5; //스테이지 갯수
-		int[] stages1 = {2, 1, 2, 6, 2, 4, 3, 3}; //게임 사용자들이 현재 멈춰있는 스테이지 번호들
-		int stageCnt2 = 5;
-		int[] stages2 = {4, 4, 4, 4}; 
-//		s.solution(stageCnt1, stages1);
-		s.solution(stageCnt2, stages2);
+//		FailureRate s = new FailureRate();
+//		int stageCnt1 = 5; //스테이지 갯수
+//		int[] stages1 = {2, 1, 2, 6, 2, 4, 3, 3}; //게임 사용자들이 현재 멈춰있는 스테이지 번호들
+//		int stageCnt2 = 5;
+//		int[] stages2 = {4, 4, 4, 4}; 
+////		s.solution(stageCnt1, stages1);
+//		s.solution(stageCnt2, stages2);
 	
+//		Keypad s = new Keypad();
+////		int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+////		String hand = "right";
+//		int[] numbers = {7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2};
+//		String hand = "left";
+//		s.solution(numbers, hand);
+		
+//		SecretMap s = new SecretMap();
+//		int n = 5;
+//		int[] map1 = {9, 20, 28, 18, 11};
+//		int[] map2 = {30, 1, 21, 17, 28};
+////		int[] map1 = {0, 0, 0, 0, 0};
+////		int[] map2 = {0, 0, 0, 0, 0};
+//		s.solution(n, map1, map2);
+		
+//		MakingPrimeNumber s = new MakingPrimeNumber();
+////		int[] nums = {1,2,7,6,4};
+//		int[] nums = {2,6,4};
+//		s.solution(nums);
+		
+//		NumberStringAndEnglishWord s = new NumberStringAndEnglishWord();
+//		s.solution("one4seveneight");
+//		s.solution("2three45sixseven");
+//		s.solution("1000zero0");
+//		s.solution("1zero000zero0");
+		
+//		PhoneKemon s = new PhoneKemon();
+//		int[] nums1 = {3,1,2,3};
+//		int[] nums2 = {3,3,3,2,2,4};
+//		int[] nums3 = {3,3,3,2,2,2};
+//		s.solution(nums1);
+//		s.solution(nums2);
+//		s.solution(nums3);
+		
+//		DartGame s = new DartGame();
+//		String dartResult = "1D2S#10S";
+//		s.solution(dartResult);
+		
+//		Divisor s = new Divisor();
+//		s.solution(24, 27);
+		
+		GettingDeclarationResult s = new GettingDeclarationResult();
+//		String[] id_list = {"muzi", "frodo", "apeach", "neo"};
+//		String[] report = {"muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"};
+//		int k = 2;
+		
+		String[] id_list = {"con", "ryan"};
+		String[] report = {"ryan con", "ryan con", "ryan con", "ryan con"};
+		int k = 3;
+		s.solution(id_list, report, k);
+		
 	}
 
 }
